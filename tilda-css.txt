@@ -1,0 +1,81 @@
+/* ====== СТИЛИ ПОИСКА И ФИЛЬТРА ====== */
+.t-store__filter__btn,
+.t-store__filter__input {
+    background-color: transparent !important;
+    text-align: left !important;
+    border: 1px solid #44B066;
+    border-radius: 15px !important;
+    color: #000000 !important;
+    padding-left: 20px !important;
+    font-size: 18px !important;
+    height: 50px !important;
+    box-sizing: border-box !important;
+}
+
+@media screen and (min-width: 440px) {
+    .t-store__filter__input {
+        width: 100% !important;
+    }
+}
+
+/* Стили иконки поиска */
+.t-store__search-icon {
+    width: 20px !important;
+    height: 20px !important;
+}
+.t-store__search-icon path {
+    fill: #074600 !important;
+}
+
+/* ====== НОВАЯ СЕТКА ДЛЯ ПОИСКА И СОРТИРОВКИ ====== */
+
+.t-store__filter__search-and-sort {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.t-store__filter__search,
+.t-store__filter__sort {
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Позиция для родителя фильтров поиска и сортировки */
+.js-store-parts-select-container .t-store__grid-cont .t-container {
+       position: relative !important;
+}
+
+/* Фильтры поиска и сортировки */
+@media (max-width: 1000px) {
+    .t-store__filter__search-and-sort {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0px !important;
+        width: 50vw !important;
+        max-width: 600px !important;
+        position: absolute !important;
+        top: 0px !important;
+        tight: 0px !important;
+    }
+
+    .t-store__filter__search,
+    .t-store__filter__sort {
+        width: 100% !important;
+    }
+}
+
+/* Фильтр сортировки */
+.t-store__sort-select-wrapper {
+  width: 100% !important;
+}
+
+.t-store__sort-select {
+  width: 100% !important;
+  border: 1px solid #44B066 !important;
+  border-radius: 15px !important;
+  height: 50px !important;
+  font-size: 18px !important;
+}
