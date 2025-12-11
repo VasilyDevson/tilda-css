@@ -1,7 +1,7 @@
 /* ====== СТИЛИ ПОИСКА И ФИЛЬТРА ====== */
 .t-store__filter__btn,
 .t-store__filter__input {
-    background-color: transparent !important;
+    background-color: transparent !important;1
     text-align: left !important;
     border: 1px solid #44B066;
     border-radius: 15px !important;
