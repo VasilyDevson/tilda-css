@@ -1,7 +1,7 @@
 /* ====== СТИЛИ ПОИСКА И ФИЛЬТРА ====== */
 .t-store__filter__btn,
 .t-store__filter__input {
-    background-color: transparent !important;
+    background-color: red !important;
     text-align: left !important;
     border: 1px solid #44B066;
     border-radius: 15px !important;
@@ -56,7 +56,7 @@
         gap: 0px !important;
         width: 50vw !important;
         max-width: 600px !important;
-        position: relative !important;
+        position: absolute !important;
         top: 0px !important;
         tight: 0px !important;
     }
